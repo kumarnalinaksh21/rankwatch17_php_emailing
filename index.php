@@ -15,7 +15,7 @@
         
         //adding Mandrill api to project
         include ("lib/Mandrill.php");
-        $mandrill = new Mandrill('<-- Mandrill API-Key -->');
+        $mandrill = new Mandrill('IhqXOqeaVARbruHDCZ0kGw');
         
         /* the api key is working, however the mail would be rejected because the dns, spf & dkim couldn't be verified and added to Gmail, and I have no other domain which  I can register with Mandrill.
         
